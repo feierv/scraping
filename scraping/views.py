@@ -130,6 +130,6 @@ def yell_results(request):
     #         # telp = product.find('span', 'business--telephoneNumber').text
     #         # web = product.find('a', {'rel': 'nofollow noopener'})['href'].split('?')[0].replace('https://','').replace('http://','').replace('http:','').replace('www.','')
             # print(5*'\n')
-    return HttpResponse(results)
+    return HttpResponse(data)
 
 

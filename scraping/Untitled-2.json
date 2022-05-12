@@ -1,0 +1,511 @@
+{
+    "business_name":"CARIAD",
+    "number_of_employees":"1k-5k employees",
+    "industries":"AgileSoftwareDevelopment,AutonomousDriving,ComputerVision",
+    "website":"https://cariad.technology/",
+    "years_in_business":2
+ }{
+    "business_name":"Catawiki",
+    "number_of_employees":"501-1k employees",
+    "industries":"eCommerce",
+    "website":"http://www.catawiki.com",
+    "years_in_business":14
+ }{
+    "business_name":"Picnic",
+    "number_of_employees":"5k-10k employees",
+    "industries":"E-Commerce,InformationTechnology,LogisticsandSupplyChain",
+    "website":"https://picnic.app/careers/",
+    "years_in_business":7
+ }{
+    "business_name":"Motius-GmbH",
+    "number_of_employees":"51-200 employees",
+    "industries":"Electronics,SoftwareDevelopment/Engineering,WebDevelopment",
+    "website":"http://www.motius.de?&utm_source=stackoverflow",
+    "years_in_business":9
+ }{
+    "business_name":"Breuninger-GmbH-Co",
+    "number_of_employees":"5k-10k employees",
+    "industries":"E-Commerce,InformationTechnology,Retail",
+    "website":"http://www.e-breuninger.de/de/karriere/it/",
+    "years_in_business":141
+ }{
+    "business_name":"Baeldung",
+    "number_of_employees":"51-200 employees",
+    "industries":"eLearning,SoftwareDevelopment,WebDevelopment",
+    "website":"https://www.baeldung.com",
+    "years_in_business":11
+ }{
+    "business_name":"FINN",
+    "number_of_employees":"201-500 employees",
+    "industries":"AgileSoftwareDevelopment,Automotive,Mobility",
+    "website":"https://www.finn.auto/?utm_source=stackoverflow&utm_medium=company_profile",
+    "years_in_business":3
+ }{
+    "business_name":"ING-Deutschland",
+    "number_of_employees":"1k-5k employees",
+    "industries":"Banking,Finance,FinancialTechnology",
+    "website":"https://www.ing.jobs/deutschland/alle-jobs.htm",
+    "years_in_business":57
+ }{
+    "business_name":"ABOUT-YOU-SE-Co-KG",
+    "number_of_employees":"1k-5k employees",
+    "industries":"E-Commerce,SaaS,WebTechnology",
+    "website":"https://corporate.aboutyou.de/",
+    "years_in_business":8
+ }{
+    "business_name":"Creative-Assembly",
+    "number_of_employees":"501-1k employees",
+    "industries":"ComputerGames,PCGames",
+    "website":"https://www.creative-assembly.com/careers",
+    "years_in_business":35
+ }{
+    "business_name":"atmaio",
+    "number_of_employees":"10k+ employees",
+    "industries":"Cloud-BasedSolutions,InformationTechnology,SaaS",
+    "website":"https://www.atma.io/",
+    "years_in_business":87
+ }{
+    "business_name":"MUFG",
+    "number_of_employees":"10k+ employees",
+    "industries":"Banking,FinancialServices,FinancialTechnology",
+    "website":"https://jobs.mufgamericas.com/",
+    "years_in_business":158
+ }{
+    "business_name":"shopware-AG",
+    "number_of_employees":"201-500 employees",
+    "industries":"E-Commerce,EnterpriseSoftware,SoftwareDevelopment/Engineering",
+    "website":"http://www.shopware.com",
+    "years_in_business":22
+ }{
+    "business_name":"Applied",
+    "number_of_employees":"11-50 employees",
+    "industries":"BehavioralAnalytics,HRServices,SaaS",
+    "website":"http://www.beapplied.com",
+    "years_in_business":6
+ }{
+    "business_name":"Wise",
+    "number_of_employees":"1k-5k employees",
+    "industries":"FinancialServices,FinancialTechnology,InformationTechnology",
+    "website":"http://www.wise.com",
+    "years_in_business":11
+ }{
+    "business_name":"ImFusion-GmbH",
+    "number_of_employees":"11-50 employees",
+    "industries":"ComputerVision,ImageGuidedSurgery,MedicalImaging",
+    "website":"https://www.imfusion.com",
+    "years_in_business":10
+ }{
+    "business_name":"queo-GmbH",
+    "number_of_employees":"51-200 employees",
+    "industries":"SoftwareConsulting,SoftwareDevelopment,WebDevelopment",
+    "website":"http://www.queo.de",
+    "years_in_business":18
+ }{
+    "business_name":"ZEISS-Group",
+    "number_of_employees":"10k+ employees",
+    "industries":"MachineLearning,MedicalDevices,VirtualReality",
+    "website":"http://www.zeiss.de/karriere",
+    "years_in_business":176
+ }{
+    "business_name":"roadsurfer-GmbH",
+    "number_of_employees":"201-500 employees",
+    "industries":"OnlineTravel,Travel&Tourism,TravelPlanning",
+    "website":"https://roadsurfer.com/de/",
+    "years_in_business":6
+ }{
+    "business_name":"IMC-Trading",
+    "number_of_employees":"501-1k employees",
+    "industries":"CapitalMarkets,FinancialTechnology,HighFrequencyTrading",
+    "website":"http://www.imc.com",
+    "years_in_business":33
+ }{
+    "business_name":"LeoVegas-Mobile-Gaming-Group",
+    "number_of_employees":"501-1k employees",
+    "industries":"Casino,Gaming",
+    "website":"https://leovegasgroup.com/en/careers/",
+    "years_in_business":10
+ }{
+    "business_name":"Sytac-IT-Consulting",
+    "number_of_employees":"51-200 employees",
+    "industries":"AgileSoftwareDevelopment,Consulting,SoftwareDevelopment/Engineering",
+    "website":"http://www.sytac.io",
+    "years_in_business":13
+ }{
+    "business_name":"Magnolia-International-Ltd",
+    "number_of_employees":"51-200 employees",
+    "industries":"AgileSoftwareDevelopment,CMS,EnterpriseSoftware",
+    "website":"http://www.magnolia-cms.com",
+    "years_in_business":25
+ }{
+    "business_name":"Lendico-Deutschland-GmbH",
+    "number_of_employees":"51-200 employees",
+    "industries":"FinancialServices,FinancialTechnology",
+    "website":"https://www.lendico.de/karriere",
+    "years_in_business":9
+ }{
+    "business_name":"Zuhlke-Engineering-EOOD",
+    "number_of_employees":"11-50 employees",
+    "industries":"AgileSoftwareDevelopment,ComputerSoftware",
+    "website":"https://www.zuehlke.com/en/careers",
+    "years_in_business":4
+ }{
+    "business_name":"Zühlke-Engineering-GmbH",
+    "number_of_employees":"501-1k employees",
+    "industries":"AgileSoftwareDevelopment,EnterpriseSoftware,SoftwareDevelopment/Engineering",
+    "website":"https://www.zuehlke.com/ch/en/",
+    "years_in_business":54
+ }{
+    "business_name":"Pentalog",
+    "number_of_employees":"1k-5k employees",
+    "industries":"AgileSoftwareDevelopment,DigitalMarketing,ITRecruitment",
+    "website":"https://www.pentalog.com/",
+    "years_in_business":29
+ }{
+    "business_name":"Jungheinrich-AG",
+    "number_of_employees":"10k+ employees",
+    "industries":"Automation,LogisticsandSupplyChain",
+    "website":"https://www.jungheinrich.de/ueber-uns/karriere",
+    "years_in_business":69
+ }{
+    "business_name":"CREDIT-SUISSE-AG",
+    "number_of_employees":"10k+ employees",
+    "industries":"Banking,FinancialServices,FinancialTechnology",
+    "website":"https://www.credit-suisse.com/careers/en/teams/technology.html",
+    "years_in_business":166
+ }{
+    "business_name":"PHOENIX-CONTACT-GmbH-Co-KG",
+    "number_of_employees":"10k+ employees",
+    "industries":"Automotive,Electronics,InformationTechnology",
+    "website":"https://www.phoenixcontact.com/karriere/de-DE/",
+    "years_in_business":99
+ }{
+    "business_name":"Northwestern-Mutual",
+    "number_of_employees":"5k-10k employees",
+    "industries":"FinancialServices,FinancialTechnology",
+    "website":"https://careers.northwesternmutual.com/",
+    "years_in_business":165
+ }{
+    "business_name":"Enveil",
+    "number_of_employees":"51-200 employees",
+    "industries":"BusinesstoBusiness,SecuritySoftware",
+    "website":"https://www.enveil.com/",
+    "years_in_business":6
+ }{
+    "business_name":"Heetch",
+    "number_of_employees":"51-200 employees",
+    "industries":"Transportation",
+    "website":"https://www.heetch.com/en",
+    "years_in_business":9
+ }{
+    "business_name":"Delivery-Hero-SE",
+    "number_of_employees":"10k+ employees",
+    "industries":"eCommerce,Food&Beverage,Logistics&Distribution",
+    "website":"http://www.deliveryhero.com/",
+    "years_in_business":11
+ }{
+    "business_name":"ASML",
+    "number_of_employees":"10k+ employees",
+    "industries":"HardwareDevelopment,Semiconductors,SoftwareDevelopment/Engineering",
+    "website":"https://www.asml.com/en/careers/job-categories/computer-science-jobs-software-engineering",
+    "years_in_business":38
+ }{
+    "business_name":"Smokeball",
+    "number_of_employees":"51-200 employees",
+    "industries":"AgileSoftwareDevelopment,LegalTechnology,legalaccountingsoftware",
+    "website":"https://www.smokeball.com.au",
+    "years_in_business":9
+ }{
+    "business_name":"Stardog-Union",
+    "number_of_employees":"51-200 employees",
+    "industries":"Databases,EnterpriseSoftware,InformationTechnology",
+    "website":"http://stardog.com",
+    "years_in_business":17
+ }{
+    "business_name":"Copado-Strategic-Services",
+    "number_of_employees":"201-500 employees",
+    "industries":"Cybersecurity,DevOps,InternetInfrastructure",
+    "website":"http://newcontext.com",
+    "years_in_business":9
+ }{
+    "business_name":"Adference-GmbH",
+    "number_of_employees":"11-50 employees",
+    "industries":"E-Commerce,OnlineAdvertising,SaaS",
+    "website":"https://www.adference.com/",
+    "years_in_business":8
+ }{
+    "business_name":"Apple",
+    "number_of_employees":"10k+ employees",
+    "industries":"ConsumerElectronics",
+    "website":"http://www.apple.com/jobs",
+    "years_in_business":46
+ }{
+    "business_name":"Ford-Motor-Company",
+    "number_of_employees":"10k+ employees",
+    "industries":"Automotive,Transportation",
+    "website":"https://corporate.ford.com/home.html",
+    "years_in_business":119
+ }{
+    "business_name":"diconium-group",
+    "number_of_employees":"1k-5k employees",
+    "industries":"AgileSoftwareDevelopment,Consulting,eCommerce",
+    "website":"https://diconium.com/de",
+    "years_in_business":27
+ }{
+    "business_name":"Abbott",
+    "number_of_employees":"10k+ employees",
+    "industries":"Healthcare",
+    "website":"https://www.abbott.com",
+    "years_in_business":134
+ }{
+    "business_name":"DraftKings",
+    "number_of_employees":"1k-5k employees",
+    "industries":"Marketplace,SoftwareDevelopment,SportsTechnology",
+    "website":"https://careers.draftkings.com/",
+    "years_in_business":10
+ }{
+    "business_name":"Capital-Group",
+    "number_of_employees":"5k-10k employees",
+    "industries":"FinancialServices,FinancialTechnology",
+    "website":"https://jobs.capitalgroup.com/go/Technology-and-Data-Analytics/4443400/",
+    "years_in_business":91
+ }{
+    "business_name":"3M-Health-Information-Systems-and-The-Digital-Science-Community",
+    "number_of_employees":"10k+ employees",
+    "industries":"DigitalHealth,EnterpriseSoftware,SoftwareDevelopment/Engineering",
+    "website":"https://www.3m.com/",
+    "years_in_business":120
+ }{
+    "business_name":"Redgate-Software",
+    "number_of_employees":"201-500 employees",
+    "industries":"ComputerSoftware,Databases,DevOps",
+    "website":"https://www.red-gate.com/",
+    "years_in_business":23
+ }{
+    "business_name":"LinkedIn",
+    "number_of_employees":"10k+ employees",
+    "industries":"Advertising,OnlineEducation,SocialNetworking",
+    "website":"https://careers.linkedin.com",
+    "years_in_business":19
+ }{
+    "business_name":"ServiceNow",
+    "number_of_employees":"10k+ employees",
+    "industries":"EnterpriseSoftware,InformationTechnology",
+    "website":"https://servicenow.com/careers",
+    "years_in_business":18
+ }{
+    "business_name":"SpotMe",
+    "number_of_employees":"51-200 employees",
+    "industries":"EnterpriseSoftware,SaaS,VirtualEvents",
+    "website":"http://www.spotme.com",
+    "years_in_business":22
+ }{
+    "business_name":"Stack-Overflow",
+    "number_of_employees":"201-500 employees",
+    "industries":"Advertising,InformationTechnology,Recruiting",
+    "website":"https://stackoverflow.com/company/work-here",
+    "years_in_business":14
+ }{
+    "business_name":"Assurance",
+    "number_of_employees":"201-500 employees",
+    "industries":"FinancialServices,Insurance",
+    "website":"https://assurance.com",
+    "years_in_business":6
+ }{
+    "business_name":"Relay42",
+    "number_of_employees":"51-200 employees",
+    "industries":"ArtificialIntelligence,DigitalMarketing,MachineLearning",
+    "website":"http://www.relay42.com",
+    "years_in_business":11
+ }{
+    "business_name":"NN-Group-NV",
+    "number_of_employees":"10k+ employees",
+    "industries":"FinancialServices",
+    "website":"https://nn-careers.com/nl/en",
+    "years_in_business":177
+ }{
+    "business_name":"PayPay-Corporation",
+    "number_of_employees":"1k-5k employees",
+    "industries":"FinancialTechnology",
+    "website":"https://paypay.ne.jp/career/en/",
+    "years_in_business":4
+ }{
+    "business_name":"Authority-Partners",
+    "number_of_employees":"501-1k employees",
+    "industries":"ComputerSoftware,EnterpriseSoftware,SoftwareConsulting",
+    "website":"https://www.authoritypartners.com/",
+    "years_in_business":24
+ }{
+    "business_name":"Ad-Astra",
+    "number_of_employees":"51-200 employees",
+    "industries":"HigherEducation,SaaS",
+    "website":"https://www.aais.com/",
+    "years_in_business":26
+ }{
+    "business_name":"JPMorgan-Chase-Co",
+    "number_of_employees":"10k+ employees",
+    "industries":"FinancialServices",
+    "website":"https://careers.jpmorgan.com/us/en/our-businesses/technology",
+    "years_in_business":223
+ }{
+    "business_name":"LogDNA",
+    "number_of_employees":"51-200 employees",
+    "industries":"DevOps,InformationTechnology,InternetInfrastructure",
+    "website":"https://logdna.com/",
+    "years_in_business":7
+ }{
+    "business_name":"uShip",
+    "number_of_employees":"51-200 employees",
+    "industries":"E-Commerce,Logistics&Distribution,Shipping",
+    "website":"http://www.uship.com",
+    "years_in_business":19
+ }{
+    "business_name":"Yoco",
+    "number_of_employees":"501-1k employees",
+    "industries":"FinancialTechnology",
+    "website":"http://yoco.com",
+    "years_in_business":7
+ }{
+    "business_name":"Baker-Hughes",
+    "number_of_employees":"10k+ employees",
+    "industries":"SoftwareDevelopment/Engineering",
+    "website":"https://careers.bakerhughes.com/global/en/engineering-technology",
+    "years_in_business":115
+ }{
+    "business_name":"Inductive-Automation",
+    "number_of_employees":"201-500 employees",
+    "industries":"IndustrialAutomation,SCADA",
+    "website":"https://inductiveautomation.com/",
+    "years_in_business":19
+ }{
+    "business_name":"PAYBACK",
+    "number_of_employees":"501-1k employees",
+    "industries":"Bonusprogramm,ProductDevelopment,SoftwareDevelopment",
+    "website":"https://www.payback.group/de/",
+    "years_in_business":22
+ }{
+    "business_name":"Covestro",
+    "number_of_employees":"10k+ employees",
+    "industries":"B2B,Chemicals",
+    "website":"https://covestro.com/en/career",
+    "years_in_business":7
+ }{
+    "business_name":"Zühlke-Engineering-Portugal",
+    "number_of_employees":"1k-5k employees",
+    "industries":"AgileSoftwareDevelopment,DataScience,DevOps",
+    "website":"https://www.zuehlke.com/en/careers",
+    "years_in_business":54
+ }{
+    "business_name":"BAS",
+    "number_of_employees":"501-1k employees",
+    "industries":"Automotive,InformationServices,InformationTechnology",
+    "website":"https://www.workingforbas.com/",
+    "years_in_business":60
+ }{
+    "business_name":"Andela",
+    "number_of_employees":"1k-5k employees",
+    "industries":"AgileSoftwareDevelopment,SoftwareDevelopment/Engineering,TechnologyStaffing",
+    "website":"https://www.andela.com",
+    "years_in_business":8
+ }{
+    "business_name":"Meru-Health",
+    "number_of_employees":"51-200 employees",
+    "industries":"DigitalHealth,WebTechnology",
+    "website":"https://www.meruhealth.com",
+    "years_in_business":6
+ }{
+    "business_name":"Vavato",
+    "number_of_employees":"11-50 employees",
+    "industries":"ComputerSoftware,eCommerce,Platforms",
+    "website":"https://vavato.com",
+    "years_in_business":7
+ }{
+    "business_name":"Zuhlke-Engineering-Hongkong",
+    "number_of_employees":"501-1k employees",
+    "industries":"AgileSoftwareDevelopment,ComputerSoftware,ITConsulting",
+    "website":"https://www.zuehlke.com/asia/en/",
+    "years_in_business":54
+ }{
+    "business_name":"BAE-Systems-Digital-Intelligence",
+    "number_of_employees":"1k-5k employees",
+    "industries":"Cybersecurity,Defence&Security",
+    "website":"https://baesystems.com/ai",
+    "years_in_business":51
+ }{
+    "business_name":"Flip-App",
+    "number_of_employees":"51-200 employees",
+    "industries":"AgileSoftwareDevelopment,Messaging,MobileApplication",
+    "website":"https://www.flipapp.de/",
+    "years_in_business":4
+ }{
+    "business_name":"G-DATA-CyberDefense-AG",
+    "number_of_employees":"501-1k employees",
+    "industries":"Cybersecurity,ITSecurity",
+    "website":"https://www.gdata.de/ueber-g-data/karriere",
+    "years_in_business":37
+ }{
+    "business_name":"iFit",
+    "number_of_employees":"201-500 employees",
+    "industries":"Health&Fitness",
+    "website":"https://www.ifit.com/aboutus",
+    "years_in_business":30
+ }{
+    "business_name":"Adevinta",
+    "number_of_employees":"5k-10k employees",
+    "industries":"InformationTechnology",
+    "website":"https://www.adevinta.com/",
+    "years_in_business":3
+ }{
+    "business_name":"Zühlke-Engineering-AG",
+    "number_of_employees":"1k-5k employees",
+    "industries":"DataScience,ITSecurity,SoftwareDevelopment/Engineering",
+    "website":"https://www.zuehlke.com/en/careers",
+    "years_in_business":54
+ }{
+    "business_name":"Canonical",
+    "number_of_employees":"501-1k employees",
+    "industries":"CloudComputing,InformationTechnology,InternetofThings",
+    "website":"https://canonical.com/",
+    "years_in_business":18
+ }{
+    "business_name":"Lufthansa-Industry-Solutions",
+    "number_of_employees":"1k-5k employees",
+    "industries":"ITConsulting",
+    "website":"https://www.lufthansa-industry-solutions.com/de-de/",
+    "years_in_business":27
+ }{
+    "business_name":"Y42",
+    "number_of_employees":"51-200 employees",
+    "industries":"Data&Analytics,Databases,InformationTechnology",
+    "website":"https://www.y42.com",
+    "years_in_business":2
+ }{
+    "business_name":"WiseTech-Global-Ltd",
+    "number_of_employees":"1k-5k employees",
+    "industries":"ComputerSoftware,InformationTechnology,SupplyChainManagementSoftware",
+    "website":"http://www.wisetechglobal.com",
+    "years_in_business":28
+ }{
+    "business_name":"AllTrails",
+    "number_of_employees":"51-200 employees",
+    "industries":"Health&Fitness",
+    "website":"http://alltrails.com",
+    "years_in_business":12
+ }{
+    "business_name":"BlueModus",
+    "number_of_employees":"51-200 employees",
+    "industries":"DigitalMarketing,WebDevelopment,WebTechnology",
+    "website":"http://www.bluemodus.com",
+    "years_in_business":21
+ }{
+    "business_name":"Just-Eat-Takeawaycom",
+    "number_of_employees":"10k+ employees",
+    "industries":"Food&Beverage,Marketplace",
+    "website":"https://careers.justeattakeaway.com",
+    "years_in_business":22
+ }{
+    "business_name":"Audible",
+    "number_of_employees":"1k-5k employees",
+    "industries":"AgileSoftwareDevelopment,ContentMarketing,WebTechnology",
+    "website":"http://audiblecareers.com",
+    "years_in_business":27
+ }

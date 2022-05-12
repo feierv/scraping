@@ -19,6 +19,7 @@ from scraping import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('stackoverflow_results/', views.results, name='detail'),
+    path('stackoverflow_results/', views.stackoverflow_results, name='detail'),
+    path('yell_results/', views.yell_results, name='detail'),
 ]
 

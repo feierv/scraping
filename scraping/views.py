@@ -1,3 +1,5 @@
+from math import prod
+from random import triangular
 from django.http import HttpResponse
 from selenium import webdriver
 from bs4 import BeautifulSoup
@@ -6,8 +8,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from datetime import date
 
-
-def results(request):
+web_url = "https://www.yell.com"
+def stackoverflow_results(request):
     # capabilities = dict(DesiredCapabilities.CHROME)
     # capabilities['proxy'] = {'proxyType': 'MANUAL','httpProxy': '3.95.61.16','ftpProxy': '3.95.61.16','sslProxy': '3.95.61.16','noProxy': '',
     # 'class': "org.openqa.selenium.Proxy",'autodetect': False}
@@ -65,3 +67,69 @@ def results(request):
 
     driver.quit()
     return HttpResponse(results)
+
+def yell_results(request):
+    url = "https://www.yell.com/ucs/UcsSearchAction.do?keywords=Freelance&location=united+kingdom&scrambleSeed=1029820020"
+
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    results = []
+    for page_num in range(1, 2):
+        url = url + f'&pageNum={str(page_num)}'
+        driver.get(url)
+        content = driver.page_source
+        soup = BeautifulSoup(content, features="html.parser")
+        wrapper = soup.find(class_='results--capsuleList')
+        items = wrapper.find_all(class_='businessCapsule')
+        # print(type(products))
+        data = []
+        for item in items:
+            shorten_link = item['data-href']
+            link = web_url + shorten_link
+            driver.get(link)
+            content = driver.page_source
+            soup1 = BeautifulSoup(content, "html.parser")
+            title_wrapp = soup1.find(class_="row flexColumns-sm-order-3 floatedColumns-md-right floatedColumns-lg-right floatedColumns-md-19 floatedColumns-lg-19")
+            import pprint
+            title = title_wrapp.find('h1').next_element
+            business_dict = dict()
+            business_dict['business_name'] = title
+            # pprint.pp(title)
+            data.append(business_dict)
+            # try:
+            #     title = title_wrapp.find(class_="text-h1 businessCard--businessName").text
+            # except AttributeError:
+            #     title = None
+            # try:
+            #     business_card_wrapper = soup1.find(class_="col-sm-24 col-md-22 businessCard--row").text
+            # except AttributeError:
+            #     title = business_card_wrapper
+            # try:
+            #     street_address = page.find('div', attrs={'class': 'd-flex flex__fl-grow1 mt12'}).find('span').next_element
+            # except AttributeError:
+            #     street_address = None
+            # try:
+            #     locality = business_card_wrapper.find(class_="addressLocality").text
+            # except AttributeError:
+            #     locality = None
+            
+            # phone_wrapper = soup1.find(class_="row flexColumns-sm-order-7 floatedColumns-md-right floatedColumns-lg-right floatedColumns-md-19 floatedColumns-lg-19")
+            # try:
+            #     phone = phone_wrapper.find(class_="business--telephoneNumber").text
+            # except AttributeError:
+            #     phone = None
+
+            # data.append({
+            #     "title":title,
+            #     "address":street_address,
+            #     "locality": locality,
+            #     "phone":phone
+            # })
+    #         link = product.find('a')
+    #         # address = product.find('span', {'itemprop':'streetAddress'}).text
+    #         # post_code = product.find('span', {'itemprop':'postalCode'}).text
+    #         # telp = product.find('span', 'business--telephoneNumber').text
+    #         # web = product.find('a', {'rel': 'nofollow noopener'})['href'].split('?')[0].replace('https://','').replace('http://','').replace('http:','').replace('www.','')
+            # print(5*'\n')
+    return HttpResponse(results)
+
+

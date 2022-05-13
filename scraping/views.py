@@ -95,41 +95,6 @@ def yell_results(request):
             business_dict['business_name'] = title
             # pprint.pp(title)
             data.append(business_dict)
-            # try:
-            #     title = title_wrapp.find(class_="text-h1 businessCard--businessName").text
-            # except AttributeError:
-            #     title = None
-            # try:
-            #     business_card_wrapper = soup1.find(class_="col-sm-24 col-md-22 businessCard--row").text
-            # except AttributeError:
-            #     title = business_card_wrapper
-            # try:
-            #     street_address = page.find('div', attrs={'class': 'd-flex flex__fl-grow1 mt12'}).find('span').next_element
-            # except AttributeError:
-            #     street_address = None
-            # try:
-            #     locality = business_card_wrapper.find(class_="addressLocality").text
-            # except AttributeError:
-            #     locality = None
-            
-            # phone_wrapper = soup1.find(class_="row flexColumns-sm-order-7 floatedColumns-md-right floatedColumns-lg-right floatedColumns-md-19 floatedColumns-lg-19")
-            # try:
-            #     phone = phone_wrapper.find(class_="business--telephoneNumber").text
-            # except AttributeError:
-            #     phone = None
-
-            # data.append({
-            #     "title":title,
-            #     "address":street_address,
-            #     "locality": locality,
-            #     "phone":phone
-            # })
-    #         link = product.find('a')
-    #         # address = product.find('span', {'itemprop':'streetAddress'}).text
-    #         # post_code = product.find('span', {'itemprop':'postalCode'}).text
-    #         # telp = product.find('span', 'business--telephoneNumber').text
-    #         # web = product.find('a', {'rel': 'nofollow noopener'})['href'].split('?')[0].replace('https://','').replace('http://','').replace('http:','').replace('www.','')
-            # print(5*'\n')
     return HttpResponse(data)
 
 

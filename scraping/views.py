@@ -73,14 +73,13 @@ def yell_results(request):
 
     driver = webdriver.Chrome(ChromeDriverManager().install())
     results = []
-    for page_num in range(1, 2):
+    for page_num in range(1, 10):
         url = url + f'&pageNum={str(page_num)}'
         driver.get(url)
         content = driver.page_source
         soup = BeautifulSoup(content, features="html.parser")
         wrapper = soup.find(class_='results--capsuleList')
         items = wrapper.find_all(class_='businessCapsule')
-        # print(type(products))
         data = []
         for item in items:
             shorten_link = item['data-href']
@@ -89,12 +88,13 @@ def yell_results(request):
             content = driver.page_source
             soup1 = BeautifulSoup(content, "html.parser")
             title_wrapp = soup1.find(class_="row flexColumns-sm-order-3 floatedColumns-md-right floatedColumns-lg-right floatedColumns-md-19 floatedColumns-lg-19")
-            import pprint
             title = title_wrapp.find('h1').next_element
             business_dict = dict()
             business_dict['business_name'] = title
-            # pprint.pp(title)
+            phone_number = soup1.find('div', attrs={'class': "col-sm-24 col-md-18 col-lg-14 businessCard--details"}).find('span', attrs={'class': 'business--telephoneNumber'}).next_element
+            business_dict['phone_number'] = phone_number
             data.append(business_dict)
+    driver.quit()
     return HttpResponse(data)
 
 
